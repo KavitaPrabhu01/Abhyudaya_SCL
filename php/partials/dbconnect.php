@@ -1,3 +1,4 @@
+
 <?php
     // connecting to database
     $server='localhost';
@@ -6,4 +7,5 @@
     $database='highergrad';
 
     $conn=mysqli_connect($server,$username,$password,$database);
+
 ?>
