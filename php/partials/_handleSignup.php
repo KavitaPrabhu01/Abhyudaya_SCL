@@ -1,3 +1,4 @@
+
 <?php
     $showError="false";
     $showAlert=false;
@@ -25,7 +26,7 @@
                 $result=mysqli_query($conn,$sql);
                 if($result){
                     $showAlert=true;
-                    header("Location:/HigherGrad/index.php?signupsuccess=true");
+                    header("Location:/Abhyudaya_SCL-main/index.php?signupsuccess=true");
                     exit();
                 }
             }
@@ -33,7 +34,7 @@
                 $showError="Password donot match";
             }
         }
-        header("Location:/HigherGrad?signupsuccess=false&error=$showError");
+        header("Location:/Abhyudaya_SCL-main?signupsuccess=false&error=$showError");
 
     }
 ?>

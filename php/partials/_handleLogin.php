@@ -1,3 +1,4 @@
+
 <?php
     $showError="false";
     if($_SERVER["REQUEST_METHOD"]=="POST"){
@@ -15,14 +16,15 @@
                     session_start();
                     $_SESSION['loggedin']=true;
                     $_SESSION['si']=$row['si'];
-                    header("Location:/HigherGrad/index.php?loginsuccess=true");
+                    header("Location:/Abhyudaya_SCL-main/index.php?loginsuccess=true");
                 }
                 else{
-                    header("Location:/HigherGrad/index.php?loginsuccess=false");
+                    header("Location:/Abhyudaya_SCL-main/index.php?loginsuccess=false");
                 }
         }
         else{
-            header("Location:/HigherGrad/index.php?loginsuccess=false");
+            header("Location:/Abhyudaya_SCL-main/index.php?loginsuccess=false");
         }
     }
+
 ?>

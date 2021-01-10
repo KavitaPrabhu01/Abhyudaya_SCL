@@ -1,3 +1,4 @@
+
 <!-- Modal -->
 <div class="modal fade my-5" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -8,7 +9,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form style="font-weight:bold;" action="partials/_handleSignup.php" method="post">
+            <form style="font-weight:bold;" action="php/partials/_handleSignup.php" method="post">
                 <div class="modal-body">
 
                     <div class="form-group">

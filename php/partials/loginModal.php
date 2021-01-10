@@ -1,3 +1,4 @@
+
 <!-- Modal -->
 <div class="modal fade my-5" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -8,7 +9,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="partials/_handleLogin.php" method="post">
+            <form action="php/partials/_handleLogin.php" method="post">
                 <div class="modal-body" style="font-weight:bold;">
                     <div class="form-group">
                         <input type="email" class="form-control" id="loginEmail" name="loginEmail" aria-describedby="emailHelp" placeholder="Email *" required>
@@ -26,4 +27,5 @@
             </form>
         </div>
     </div>
+
 </div>
